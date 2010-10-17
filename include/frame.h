@@ -1,8 +1,8 @@
 #ifndef _FRAME_H_
 #define _FRAME_H_ 1
 
-#include <ffmpeg/avcodec.h>
-#include <ffmpeg/avformat.h>
+#include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
 #include <SDL/SDL_mutex.h>
 
 struct frame_list {

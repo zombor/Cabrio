@@ -4,9 +4,9 @@
  * and a tutorial by Martin Bohme (boehme@inb.uni-luebeckREMOVETHIS.de)
  */
 
-#include <ffmpeg/avcodec.h>
-#include <ffmpeg/avformat.h>
-#include <ffmpeg/swscale.h>
+#include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
+#include <libswscale/swscale.h>
 #include <SDL/SDL.h>
 #include <SDL/SDL_audio.h>
 #include "video.h"
